@@ -50,10 +50,10 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="https://www.maisonsdemer.com/" class="standard-logo" data-dark-logo="images/logo.svg"><img
-								src="images/logo.svg" alt="Maisons de Mer Logo"></a>
-						<a href="https://www.maisonsdemer.com/" class="retina-logo" data-dark-logo="images/logo.svg" s><img
-								src="images/logo.svg" alt="Maisons de Mer Logo"></a>
+						<a href="https://www.maisonsdemer.com/" class="standard-logo"
+							data-dark-logo="images/logo.svg"><img src="images/logo.svg" alt="Maisons de Mer Logo"></a>
+						<a href="https://www.maisonsdemer.com/" class="retina-logo" data-dark-logo="images/logo.svg"
+							s><img src="images/logo.svg" alt="Maisons de Mer Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -154,8 +154,7 @@
 							<h3>LAISSEZ VOUS GUIDER PAR UN COUP DE COEUR</h3>
 						</div>
 						<div class="row clearfix common-height">
-							<div class="col-lg-3">&nbsp;</div>
-							<div class="col-lg-6">
+							<div>
 								<p class="lead">Maisons de différents types, appartements, villas, bungalows, avec 1, 2,
 									3
 									chambres, situées en bord de mer, dans un quartier charmant et animée ou dans une
@@ -166,7 +165,6 @@
 									Iconos de playa, aeropuerto, hospital, restaurante, golf.</p>
 							</div>
 
-							<div class="col-lg-3">&nbsp;</div>
 						</div>
 
 					</div>
@@ -290,45 +288,45 @@
 
 			<!-- ! ######################## FORMULARIO ############################### -->
 			<div class="content-wrap">
-				<div class="row clearfix">
-					<div class="col-xl-4"></div>
-					<div class="widget subscribe-widget clearfix col-xl-4">
+				<div class="row clearfix center mx-2">
+					<div class="clearfix heading-block center">
 						<h3>FORMULAIRE DE CONTACT</h3>
 						<h5>Demandez plus d´information</h5>
-						<div class="widget-subscribe-form-result"></div>
-						<form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post"
-							class="nobottommargin">
+					</div>
+					<div class="col-lg-4" style="margin:auto">
+						<form id="contact-form" action="https://www.maisonsdemer.com/fr/contactez-nous/send/" role="form" method="post" class="nobottommargin">
 
 							<div class="input-group divcenter">
 								<div class="input-group-prepend">
 									<div class="input-group-text"><i class="icon-line2-user"></i></div>
 								</div>
-								<input type="email" id="widget-subscribe-form-name" name="widget-subscribe-form-name"
-									class="form-control required" placeholder="Enter your name">
-							</div><br>
-
-							<div class="input-group divcenter">
-								<div class="input-group-prepend">
-									<div class="input-group-text"><i class="icon-phone3"></i></div>
-								</div>
-								<input type="email" id="widget-subscribe-form-phone" name="widget-subscribe-form-phone"
-									class="form-control required phone" placeholder="Enter your Phone">
+								<input type="text" id="contact-form-name" name="nombre"
+									class="form-control required" placeholder="Nom" />
 							</div><br>
 
 							<div class="input-group divcenter">
 								<div class="input-group-prepend">
 									<div class="input-group-text"><i class="icon-email3"></i></div>
 								</div>
-								<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email"
-									class="form-control required email" placeholder="Enter your Email">
+								<input type="email" id="contact-form-email" name="email"
+									class="form-control required email" placeholder="Mail">
 							</div><br>
+
+							<div class="input-group divcenter">
+								<div class="input-group-prepend">
+									<div class="input-group-text"><i class="icon-phone3"></i></div>
+								</div>
+								<input type="phone" id="contact-form-phone" name="contact-form-phone"
+									class="form-control required phone" placeholder="telefono" />
+							</div><br>
+
+						
 							<div class="input-group">
-								<button class="btn btn-warning" type="submit">Subscribe</button>
+								<button class="btn btn-warning" type="submit">Envoyer</button>
 							</div>
 
 						</form>
 					</div>
-					<div class="col-xl-4">&nbsp;</div>
 				</div>
 			</div>
 
@@ -356,8 +354,8 @@
 
 							<!-- <img src="images/logo.jpg" alt="Maisons de Mer footer logo" style=" border-radius:2%;"
 								class="footer-logo"> -->
-							<div
-								style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;" class="center">
+							<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;"
+								class="center">
 								<address>
 									<h4>Maisons de Mer</h4>
 									<i class="icon-location"></i>
@@ -393,7 +391,7 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2024 All Rights Reserved by Maisons de Mer<br>
+						&copy; 2024 All Rights Reserved by Maisons de Mer<br>
 					</div>
 
 					<div class="col_half col_last tright">
@@ -412,7 +410,7 @@
 							<i class="icon-envelope2"></i> info@maisonsdemer.com <span class="middot">&middot;</span>
 							<i class="icon-phone3"></i> +34 659 01 93 71 <span class="middot">&middot;</span>
 
-							
+
 						</div>
 
 
