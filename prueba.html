@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Villas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS para el Lightbox -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.1.3/simple-lightbox.min.css" rel="stylesheet">
+    <style>
+        .slider-container {
+            position: relative;
+        }
+        .slider-text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(184, 157, 83, 0.85);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        .thumbnail-row img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+        .text-section {
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Columna de Slider con Texto -->
+            <div class="col-md-6">
+                <div id="carouselExampleControls" class="carousel slide slider-container" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://via.placeholder.com/800x500" class="d-block w-100" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/800x500" class="d-block w-100" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://via.placeholder.com/800x500" class="d-block w-100" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    <div class="slider-text-overlay">
+                        <h2>MAXIMUM LUXURY</h2>
+                        <p>Luxury plots for your villa, where you can choose between one of our designs or make your own by configuring it to your liking.</p>
+                        <a href="#" class="btn btn-light">See more</a>
+                    </div>
+                </div>
+
+                <!-- Fila de miniaturas con Lightbox -->
+                <div class="row mt-3 thumbnail-row">
+                    <div class="col-4">
+                        <a href="https://via.placeholder.com/800x500" class="lightbox">
+                            <img src="https://via.placeholder.com/200x125" alt="Miniatura 1">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="https://via.placeholder.com/800x500" class="lightbox">
+                            <img src="https://via.placeholder.com/200x125" alt="Miniatura 2">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <a href="https://via.placeholder.com/800x500" class="lightbox">
+                            <img src="https://via.placeholder.com/200x125" alt="Miniatura 3">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Columna de texto con botón -->
+            <div class="col-md-6 text-section d-flex flex-column justify-content-center align-items-center">
+                <p>Now On Sale: <br> <strong>PHASE 2</strong></p>
+                <h3>GOLF VILLAS</h3>
+                <p>Located in a privileged location, the villas are designed to provide spectacular views of the golf course thanks to its open layout, which offers a unique and exclusive experience.</p>
+                <a href="#" class="btn btn-primary">See more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox JavaScript para el Lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.1.3/simple-lightbox.min.js"></script>
+    <script>
+        // Inicialización del Lightbox
+        document.addEventListener("DOMContentLoaded", function () {
+            new SimpleLightbox('.thumbnail-row a', {});
+        });
+    </script>
+</body>
+</html>
