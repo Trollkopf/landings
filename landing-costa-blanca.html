@@ -20,7 +20,12 @@
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/whatsapp.css" type="text/css" />
 	<link rel="stylesheet" href="css/slider.css" type="text/css" />
+	<link rel="stylesheet" href="css/specific-fa-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
 
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -92,7 +97,7 @@
 								<video id="slide-video" poster="images/videos/explore.jpg" preload="auto" loop autoplay
 									muted>
 									<source src='images/videos/videopromocional.mp4' type='video/mp4' />
-									<source src='images/videos/videopromocional.mp4' type='video/mp4' />
+									<source src='images/videos/videopromocional.webm' type='video/webm' />
 								</video>
 								<div class="video-overlay" style="background-color: rgba(0, 0, 0, 0);"></div>
 							</div>
@@ -122,9 +127,9 @@
 
 					<div class="col-xl-12">
 						<div class="heading-block topmargin">
-							<h1>LA COSTA BLANCA</h1>
+							<h1 data-animate="fadeInLeftBig">LA COSTA BLANCA</h1>
 						</div>
-						<p class="lead">Un ciel bleu, clair et ensoleillé, des plages de sable blanc et des petites
+						<p class="lead" data-animate="fadeInRightBig">Un ciel bleu, clair et ensoleillé, des plages de sable blanc et des petites
 							criques, températures très agréables toute l'année, terrains de golf de grande
 							réputation, et une gastronomie très variée et de grande qualité: poissons frais, fruits
 							de mer, viandes, légumes, paellas, toujours accompagné d'un bon appariement et d'une
@@ -162,9 +167,18 @@
 									calme en pleine nature, près de l'aéroport, à proximité des services, des
 									restaurant,
 									des magasins et des centres commerciaux.
-									Iconos de playa, aeropuerto, hospital, restaurante, golf.</p>
+								</p>
 							</div>
 
+						</div>
+						<div class="row clearfix common-height">
+							<div class="col-1"></div>
+							<div class="col-2" data-animate="rotateIn"><i class="fa-solid fa-umbrella-beach"></i></div>
+							<div class="col-2" data-animate="rotateIn"><i class="fa-solid fa-plane-departure"></i></div>
+							<div class="col-2" data-animate="rotateIn"><i class="fa-solid fa-hospital-alt"></i></div>
+							<div class="col-2" data-animate="rotateIn"><i class="uil-restaurant"></i></div>
+							<div class="col-2" data-animate="rotateIn"><i class="fa-solid fa-golf-ball"></i></div>
+							<div class="col-1"></div>
 						</div>
 
 					</div>
@@ -176,7 +190,7 @@
 			<!-- ! ################################# SLIDER ################################# -->
 			<!-- ! ########################################################################## -->
 
-			<div class="container-fluid">
+			<div class="container-fluid" data-animate="fadeIn">
 				<div class="row">
 					<div class="col-md-6">
 						<div id="carouselExampleControls" class="carousel slide slider-container"
@@ -294,17 +308,18 @@
 						<h5>Demandez plus d´information</h5>
 					</div>
 					<div class="col-lg-4" style="margin:auto">
-						<form id="contact-form" action="https://www.maisonsdemer.com/fr/contactez-nous/send/" role="form" method="post" class="nobottommargin">
+						<form id="contact-form" action="https://www.maisonsdemer.com/fr/contactez-nous/send/"
+							role="form" method="post" class="nobottommargin">
 
-							<div class="input-group divcenter">
+							<div class="input-group divcenter" data-animate="pulse">
 								<div class="input-group-prepend">
 									<div class="input-group-text"><i class="icon-line2-user"></i></div>
 								</div>
-								<input type="text" id="contact-form-name" name="nombre"
-									class="form-control required" placeholder="Nom" />
+								<input type="text" id="contact-form-name" name="nombre" class="form-control required"
+									placeholder="Nom" />
 							</div><br>
 
-							<div class="input-group divcenter">
+							<div class="input-group divcenter" data-animate="pulse">
 								<div class="input-group-prepend">
 									<div class="input-group-text"><i class="icon-email3"></i></div>
 								</div>
@@ -312,7 +327,7 @@
 									class="form-control required email" placeholder="Mail">
 							</div><br>
 
-							<div class="input-group divcenter">
+							<div class="input-group divcenter" data-animate="pulse">
 								<div class="input-group-prepend">
 									<div class="input-group-text"><i class="icon-phone3"></i></div>
 								</div>
@@ -320,8 +335,8 @@
 									class="form-control required phone" placeholder="telefono" />
 							</div><br>
 
-						
-							<div class="input-group">
+
+							<div class="input-group" data-animate="pulse">
 								<button class="btn btn-warning" type="submit">Envoyer</button>
 							</div>
 
@@ -359,8 +374,8 @@
 								<address>
 									<h4>Maisons de Mer</h4>
 									<i class="icon-location"></i>
-									CC La Zenia, calle Malaquita, 15<br>
-									03189 Orihuela Costa - Alicante, Spain<br>
+									Campus Universitario de Espinardo 7<br>
+									30100 Murcia, Espagne<br>
 								</address>
 								<abbr title="Phone Number"><i class="icon-phone3"> </i></abbr>&nbsp;+34 659 01 93
 								71<br>
