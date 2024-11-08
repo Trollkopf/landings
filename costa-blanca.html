@@ -4,7 +4,7 @@
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+	<meta name="Max Serratosa" content="SemiColonWeb" />
 
 	<!-- Stylesheets
 	============================================= -->
@@ -12,23 +12,34 @@
 		href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
 		rel="stylesheet" type="text/css" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/whatsapp.css" type="text/css" />
-	<link rel="stylesheet" href="css/slider.css" type="text/css" />
-	<link rel="stylesheet" href="css/specific-fa-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="landings/style.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/whatsapp.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/slider.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/specific-fa-icons.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/magnific-popup.css" type="text/css" />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="landings/css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- GOOGLE ANALYTICS -->
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1RKKFEBN93"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-1RKKFEBN93');
+	</script>
 
 	<!-- Document Title
 	============================================= -->
@@ -56,9 +67,10 @@
 					============================================= -->
 					<div id="logo">
 						<a href="https://www.maisonsdemer.com/" class="standard-logo"
-							data-dark-logo="images/logo.svg"><img src="images/logo.svg" alt="Maisons de Mer Logo"></a>
+							data-dark-logo="images/logo.svg"><img src="landings/images/logo.svg"
+								alt="Maisons de Mer Logo"></a>
 						<a href="https://www.maisonsdemer.com/" class="retina-logo" data-dark-logo="images/logo.svg"
-							s><img src="images/logo.svg" alt="Maisons de Mer Logo"></a>
+							s><img src="landings/images/logo.svg" alt="Maisons de Mer Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -86,7 +98,7 @@
 									<!-- ? ################################################################################### -->
 									<!-- ? ################################ Texto sobre video ################################ -->
 									<!-- ? ################################################################################### -->
-									<!-- <img src="images/logo.svg" alt="Maisons de Mer Logo">
+									<!-- <img src="landings/images/logo.svg" alt="Maisons de Mer Logo">
 									<h2 data-caption-animate="fadeInUp">COSTA BLANCA</h2>
 									<p class="d-none d-sm-block" data-caption-animate="fadeInUp"
 										data-caption-delay="200">Un ciel bleu, clair et ensoleillé, des plages de sable
@@ -96,14 +108,13 @@
 							<div class="video-wrap">
 								<video id="slide-video" /*poster="images/videos/explore.jpg" preload="auto" loop
 									autoplay muted playsinline>
-									<source src='images/videos/videopromocional.mp4' type='video/mp4' />
-									<source src='images/videos/videopromocional.webm' type='video/webm' />
+									<source src='landings/images/videos/videopromocional.mp4' type='video/mp4' />
+									<source src='landings/images/videos/videopromocional.webm' type='video/webm' />
 								</video>
-								<div class="video-overlay" style="background-color: rgba(0, 0, 0, 0);"></div>
-								<button onclick="document.getElementById('slide-video').play()">Reproducir
-									Video</button>
 							</div>
 						</div>
+
+
 
 					</div>
 
@@ -114,7 +125,13 @@
 
 			</div>
 		</section>
-
+		<div class="mobile-only">
+			<iframe width="100%" height="auto"
+        src="https://www.youtube.com/embed/-sCZgxgX3fE?si=LBudR-Di8YiM4wm-&controls=0&autoplay=1&mute=1&showinfo=0&modestbranding=1"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
 		<!-- Content
 		============================================= -->
 		<section id="content">
@@ -143,7 +160,7 @@
 
 						<div style="position: relative" width="100%" class="ohidden mb-2 nomargin" data-height-xl="auto"
 							data-height-lg="auto" data-height-md="auto" data-height-md="auto" data-height-xs="auto">
-							<img src="images/image1.png" data-animate="fadeInUp" data-delay="100" width="100%"
+							<img src="landings/images/image1.png" data-animate="fadeInUp" data-delay="100" width="100%"
 								alt="Chrome">
 						</div>
 
@@ -174,13 +191,14 @@
 							</div>
 
 						</div>
-						<div class="row clearfix common-height">
+						<div class="row clearfix">
 							<div class="col-1"></div>
 							<div class="col-2" data-animate="rotateIn"><i class="fa-solid fa-umbrella-beach"></i></div>
 							<div class="col-2" data-animate="rotateIn"><i class="fa-solid fa-plane-departure"></i></div>
 							<div class="col-2" data-animate="rotateIn"><i class="fa-solid fa-hospital-alt"></i></div>
 							<div class="col-2" data-animate="rotateIn"><i class="uil-restaurant"></i></div>
-							<div class="col-2" data-animate="rotateIn"><img src="images/golf.svg" class="golf"></div>
+							<div class="col-2" data-animate="rotateIn"><img src="landings/images/golf.svg"
+									class="i-golf"></div>
 							<div class="col-1"></div>
 						</div>
 
@@ -200,27 +218,27 @@
 							data-bs-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img src="images/properties/4.jpg" class="d-block w-100" alt="Imagen 1">
+									<img src="landings/images/properties/4.jpg" class="d-block w-100" alt="Imagen 1">
 									<!-- <div class="slider-text-overlay">
 										<h2>Propiedad 1</h2>
 										<p>**Texto de la propiedad 1 **</p>
-										<a href="#" class="btn btn-light">See more</a>
+										<a href="landings/#" class="btn btn-light">See more</a>
 									</div> -->
 								</div>
 								<div class="carousel-item">
-									<img src="images/properties/3.jpg" class="d-block w-100" alt="Imagen 1">
+									<img src="landings/images/properties/3.jpg" class="d-block w-100" alt="Imagen 1">
 									<!-- <div class="slider-text-overlay">
 										<h2>Propiedad 12</h2>
 										<p>**Texto de la propiedad 2 **</p>
-										<a href="#" class="btn btn-light">See more</a>
+										<a href="landings/#" class="btn btn-light">See more</a>
 									</div> -->
 								</div>
 								<div class="carousel-item">
-									<img src="images/properties/2.jpg" class="d-block w-100" alt="Imagen 1">
+									<img src="landings/images/properties/2.jpg" class="d-block w-100" alt="Imagen 1">
 									<!-- <div class="slider-text-overlay">
 										<h2>Propiedad 3</h2>
 										<p>**Texto de la propiedad 3 **</p>
-										<a href="#" class="btn btn-light">See more</a>
+										<a href="landings/#" class="btn btn-light">See more</a>
 									</div> -->
 								</div>
 							</div>
@@ -239,18 +257,18 @@
 						<!-- Fila de miniaturas con Lightbox -->
 						<div class="row mt-3 thumbnail-row">
 							<div class="col-4">
-								<a href="images/properties/2.jpg" data-lightbox="image"><img
-										src="images/properties/2.jpg" alt="Lightbox Image"></a>
+								<a href="landings/images/properties/2.jpg" data-lightbox="image"><img
+										src="landings/images/properties/2.jpg" alt="Lightbox Image"></a>
 
 							</div>
 							<div class="col-4">
-								<a href="images/properties/3.jpg" data-lightbox="image"><img
-										src="images/properties/3.jpg" alt="Lightbox Image"></a>
+								<a href="landings/images/properties/3.jpg" data-lightbox="image"><img
+										src="landings/images/properties/3.jpg" alt="Lightbox Image"></a>
 								</a>
 							</div>
 							<div class="col-4">
-								<a href="images/properties/5.jpg" data-lightbox="image"><img
-										src="images/properties/5.jpg" alt="Lightbox Image"></a>
+								<a href="landings/images/properties/5.jpg" data-lightbox="image"><img
+										src="landings/images/properties/5.jpg" alt="Lightbox Image"></a>
 								</a>
 							</div>
 						</div>
@@ -260,7 +278,8 @@
 					<div class="col-md-6 text-section d-flex flex-column justify-content-center align-items-center"
 						style="color: whitesmoke;">
 						<h3 style="color: white;">ÉNORME PORTEFEUILLE DE POSSIBILITÉS</h3>
-						<p class="lead">La Costa Blanca offre d'innombrables possibilités pour investir dans des maisons, que ce soit
+						<p class="lead">La Costa Blanca offre d'innombrables possibilités pour investir dans des
+							maisons, que ce soit
 							pour vivre toute l'année, profiter de bonnes vacances durant la saison touristique d´été ou
 							en printemps et automne, ou comme investissement locatif avec des rendements nets élevés.
 						</p>
@@ -271,70 +290,89 @@
 
 			</div>
 
+
 			<div class="container-fluid-image" data-animate="fadeIn">
 				<div class="row">
 					<!-- Columna de texto y galería a la izquierda -->
 					<div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center "
 						style="color: whitesmoke; min-height: 100vh;">
-						<h2 style="color: whitesmoke;" class="text-center text-md-start ms-2">Costa Blanca, Sud et Nord</h2>
-			
+						<h2 style="color: whitesmoke;" class="text-center text-md-start ms-2">Costa Blanca, Sud et Nord
+						</h2>
+
 						<!-- Galería de imágenes -->
 						<div class="row gallery mt-4text-center text-md-start mx-2">
 							<div class="col-4 col-sm-4 mb-2">
-								<a href="images/beaches/1.jpg" data-lightbox="image">
-									<img src="images/beaches/1-thmb.jpg" alt="Playa 1" class="thmb-img img-fluid" data-animate="fadeInUp">
+								<a href="landings/images/beaches/1.jpg" data-lightbox="image">
+									<img src="landings/images/beaches/1-thmb.jpg" alt="Playa 1"
+										class="thmb-img img-fluid" data-animate="fadeInUp">
 								</a>
 							</div>
 							<div class="col-4 col-sm-4 mb-2">
-								<a href="images/beaches/2.jpg" data-lightbox="image">
-									<img src="images/beaches/2-thmb.jpg" alt="Playa 2" class="thmb-img img-fluid" data-animate="fadeInUp" style="animation-delay: 0.1s;">
+								<a href="landings/images/beaches/2.jpg" data-lightbox="image">
+									<img src="landings/images/beaches/2-thmb.jpg" alt="Playa 2"
+										class="thmb-img img-fluid" data-animate="fadeInUp"
+										style="animation-delay: 0.1s;">
 								</a>
 							</div>
 							<div class="col-4 col-sm-4 mb-2">
-								<a href="images/beaches/3.jpg" data-lightbox="image">
-									<img src="images/beaches/3-thmb.jpg" alt="Playa 3" class="thmb-img img-fluid" data-animate="fadeInUp" style="animation-delay: 0.2s;">
+								<a href="landings/images/beaches/3.jpg" data-lightbox="image">
+									<img src="landings/images/beaches/3-thmb.jpg" alt="Playa 3"
+										class="thmb-img img-fluid" data-animate="fadeInUp"
+										style="animation-delay: 0.2s;">
 								</a>
 							</div>
 						</div>
-			
+
 						<!-- Más filas de galería -->
 						<div class="row gallery mt-4 text-center text-md-start mx-2">
 							<div class="col-4 col-sm-4 mb-2">
-								<a href="images/beaches/4.jpg" data-lightbox="image">
-									<img src="images/beaches/4-thmb.jpg" alt="Playa 4" class="thmb-img img-fluid" data-animate="fadeInUp" style="animation-delay: 0.3s;">
+								<a href="landings/images/beaches/4.jpg" data-lightbox="image">
+									<img src="landings/images/beaches/4-thmb.jpg" alt="Playa 4"
+										class="thmb-img img-fluid" data-animate="fadeInUp"
+										style="animation-delay: 0.3s;">
 								</a>
 							</div>
 							<div class="col-4 col-sm-4 mb-2">
-								<a href="images/beaches/5.jpg" data-lightbox="image">
-									<img src="images/beaches/5-thmb.jpg" alt="Playa 5" class="thmb-img img-fluid" data-animate="fadeInUp" style="animation-delay: 0.4s;">
+								<a href="landings/images/beaches/5.jpg" data-lightbox="image">
+									<img src="landings/images/beaches/5-thmb.jpg" alt="Playa 5"
+										class="thmb-img img-fluid" data-animate="fadeInUp"
+										style="animation-delay: 0.4s;">
 								</a>
 							</div>
 							<div class="col-4 col-sm-4 mb-2">
-								<a href="images/beaches/6.jpg" data-lightbox="image">
-									<img src="images/beaches/6-thmb.jpg" alt="Playa 6" class="thmb-img img-fluid" data-animate="fadeInUp" style="animation-delay: 0.5s;">
+								<a href="landings/images/beaches/6.jpg" data-lightbox="image">
+									<img src="landings/images/beaches/6-thmb.jpg" alt="Playa 6"
+										class="thmb-img img-fluid" data-animate="fadeInUp"
+										style="animation-delay: 0.5s;">
 								</a>
 							</div>
 						</div>
-			
+
 						<div class="row gallery mt-4 text-center text-md-start mx-2">
 							<div class="col-4 col-sm-4 mb-2">
-								<a href="images/beaches/7.jpg" data-lightbox="image">
-									<img src="images/beaches/7-thmb.jpg" alt="Playa 7" class="thmb-img img-fluid" data-animate="fadeInUp" style="animation-delay: 0.6s;">
+								<a href="landings/images/beaches/7.jpg" data-lightbox="image">
+									<img src="landings/images/beaches/7-thmb.jpg" alt="Playa 7"
+										class="thmb-img img-fluid" data-animate="fadeInUp"
+										style="animation-delay: 0.6s;">
 								</a>
 							</div>
 							<div class="col-4 col-sm-4 mb-2">
-								<a href="images/beaches/8.jpg" data-lightbox="image">
-									<img src="images/beaches/8-thmb.jpg" alt="Playa 8" class="thmb-img img-fluid" data-animate="fadeInUp" style="animation-delay: 0.7s;">
+								<a href="landings/images/beaches/8.jpg" data-lightbox="image">
+									<img src="landings/images/beaches/8-thmb.jpg" alt="Playa 8"
+										class="thmb-img img-fluid" data-animate="fadeInUp"
+										style="animation-delay: 0.7s;">
 								</a>
 							</div>
 							<div class="col-4 col-sm-4 mb-2">
-								<a href="images/beaches/9.jpg" data-lightbox="image">
-									<img src="images/beaches/9-thmb.jpg" alt="Playa 9" class="thmb-img img-fluid" data-animate="fadeInUp" style="animation-delay: 0.8s;">
+								<a href="landings/images/beaches/9.jpg" data-lightbox="image">
+									<img src="landings/images/beaches/9-thmb.jpg" alt="Playa 9"
+										class="thmb-img img-fluid" data-animate="fadeInUp"
+										style="animation-delay: 0.8s;">
 								</a>
 							</div>
 						</div>
 					</div>
-			
+
 					<!-- Columna de imagen a la derecha
 					<div class="col-12 col-md-6 p-0">
 						<div class="image-container">
@@ -342,85 +380,106 @@
 						</div>
 					</div>
 				</div> -->
+				</div>
+
+
+
+			</div>
+			<div class="mobile-only">
+				<h2 style="color: whitesmoke; position: absolute; top: 20px; left: 20px; z-index: 2;"
+					class="text-center text-md-start ms-2">Costa Blanca</h2>
+				<h2 style="color: whitesmoke; position: absolute; top: 45px; left: 20px; z-index: 2;"
+					class="text-center text-md-start ms-2">Sud et Nord</h2><img
+					src="landings/images/costablanca-mobile.png" alt="mapa costa blanca" width="100%" height="auto">
 			</div>
 
-			
-			
-		</div>
-		<div class="mobile-only"><h2 style="color: whitesmoke; position: absolute; top: 20px; left: 20px; z-index: 2;" class="text-center text-md-start ms-2">Costa Blanca, Sud et Nord</h2><img src="images/costablanca-mobile.png" alt="mapa costa blanca" width="100%" height="auto"></div>
+
+	</div>
 
 
 	<div class="section row notopmargin nobottommargin nobottomborder d-flex align-items-center flex-column flex-md-row"
-	 style="background-color: #545344;">
+		style="background-color: #545344;">
 
-	<!-- Primer carrusel -->
-	<div class="col-12 col-md-3 d-flex align-items-center mx-auto mb-4 mb-md-0">
-		<div id="carouselNotre1" class="carousel slide slider-container" data-bs-ride="carousel" data-bs-interval="4573">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="images/inmo/5.png" class="d-block w-100" alt="Imagen 1">
-				</div>
-				<div class="carousel-item">
-					<img src="images/inmo/6.png" class="d-block w-100" alt="Imagen 1">
+		<!-- Primer carrusel -->
+		<div class="col-12 col-md-3 d-flex align-items-center mx-auto mb-4 mb-md-0">
+			<div id="carouselNotre1" class="carousel slide slider-container" data-bs-ride="carousel"
+				data-bs-interval="4573">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="landings/images/inmo/5.png" class="d-block w-100" alt="Imagen 1">
+					</div>
+					<div class="carousel-item">
+						<img src="landings/images/inmo/6.png" class="d-block w-100" alt="Imagen 1">
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- Texto principal -->
-	<div class="col-12 col-md-6 text-center text-md-start mx-auto">
-		<div class="container clearfix">
-			<div class="heading-block">
-				<h3 class="display-6 display-md-3" style="color: whitesmoke;" data-animate="fadeInUp">
-					NOTRE POINT FORT: UN TRAITEMENT TRÈS PERSONNALISÉ
-				</h3>
-			</div>
+		<!-- Texto principal -->
+		<div class="col-12 col-md-6 text-center text-md-start mx-auto">
 			<div class="container clearfix">
-				<p class="lead text-md-start smaller-font-mobile" style="color: whitesmoke;" data-animate="fadeInUp">
-					L'équipe de Maisons du Mer vous accompagne lors de la recherche de votre logement au paradis espagnol.
-					Nous sommes des professionnels de l'immobilier, nés à Alicante et Murcie, nous connaissons donc bien le produit
-					et les charmes de la région, mais étant bilingues, nous maîtrisons parfaitement la langue et la culture française.
+				<div class="heading-block">
+					<h3 class="display-6 display-md-3" style="color: whitesmoke;" data-animate="fadeInUp">
+						NOTRE POINT FORT: UN TRAITEMENT TRÈS PERSONNALISÉ
+					</h3>
+				</div>
+				<div class="container clearfix">
+					<p class="lead text-md-start smaller-font-mobile" style="color: whitesmoke;"
+						data-animate="fadeInUp">
+						L'équipe de Maisons du Mer vous accompagne lors de la recherche de votre logement au paradis
+						espagnol.
+						Nous sommes des professionnels de l'immobilier, nés à Alicante et Murcie, nous connaissons donc
+						bien le produit
+						et les charmes de la région, mais étant bilingues, nous maîtrisons parfaitement la langue et la
+						culture française.
 
-					Nous vous conseillons et vous accompagnons tout au long du processus d'achat, d'un point de vue commercial
-					et juridique. Nous sélectionnons les logements qui répondent le mieux à vos critères, les visitons ensemble
-					et parcourons les environs, et une fois que nous avons trouvé VOTRE MAISON, notre cabinet d'avocats,
-					spécialisé en droit franco-espagnol, vous guide très attentivement du début à la fin de la transaction.
-				</p>
-				<a class="btn btn-large btn-warning mt-3" href="https://www.maisonsdemer.com/fr/faqs/" data-animate="fadeInUp">En savoir Plus</a>
+						Nous vous conseillons et vous accompagnons tout au long du processus d'achat, d'un point de vue
+						commercial
+						et juridique. Nous sélectionnons les logements qui répondent le mieux à vos critères, les
+						visitons ensemble
+						et parcourons les environs, et une fois que nous avons trouvé VOTRE MAISON, notre cabinet
+						d'avocats,
+						spécialisé en droit franco-espagnol, vous guide très attentivement du début à la fin de la
+						transaction.
+					</p>
+					<a class="btn btn-large btn-warning mt-3" href="https://www.maisonsdemer.com/fr/faqs/"
+						data-animate="fadeInUp">En savoir Plus</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Segundo carrusel -->
+		<div class="col-12 col-md-3 text-center text-md-start mx-auto mt-4 mt-md-0">
+			<div id="carouselNotre2" class="carousel slide slider-container" data-bs-ride="carousel"
+				data-bs-interval="3123">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="landings/images/inmo/4.png" class="d-block w-100" alt="Imagen 1">
+					</div>
+					<div class="carousel-item">
+						<img src="landings/images/inmo/3.png" class="d-block w-100" alt="Imagen 1">
+					</div>
+				</div>
+			</div>
+
+			<div id="carouselNotre3" class="carousel slide slider-container mt-3" data-bs-ride="carousel"
+				data-bs-interval="2823">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="landings/images/inmo/1.png" class="d-block w-100" alt="Imagen 1">
+					</div>
+					<div class="carousel-item">
+						<img src="landings/images/inmo/2.png" class="d-block w-100" alt="Imagen 1">
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-
-	<!-- Segundo carrusel -->
-	<div class="col-12 col-md-3 text-center text-md-start mx-auto mt-4 mt-md-0">
-		<div id="carouselNotre2" class="carousel slide slider-container" data-bs-ride="carousel" data-bs-interval="3123">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="images/inmo/4.png" class="d-block w-100" alt="Imagen 1">
-				</div>
-				<div class="carousel-item">
-					<img src="images/inmo/3.png" class="d-block w-100" alt="Imagen 1">
-				</div>
-			</div>
-		</div>
-
-		<div id="carouselNotre3" class="carousel slide slider-container mt-3" data-bs-ride="carousel" data-bs-interval="2823">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="images/inmo/1.png" class="d-block w-100" alt="Imagen 1">
-				</div>
-				<div class="carousel-item">
-					<img src="images/inmo/2.png" class="d-block w-100" alt="Imagen 1">
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 
 	<!-- ! ######################## FORMULARIO ############################### -->
-	<div class="content-wrap" style="background-color: #D4AF37;">
+	<div class="content-wrap bg-warning bg-gradient">
 		<div class="row clearfix center mx-2">
 			<div class="clearfix heading-block center">
 				<h2 data-animate="fadeInUp">FORMULAIRE DE CONTACT</h2>
@@ -435,7 +494,7 @@
 							<div class="input-group-text"><i class="icon-line2-user"></i></div>
 						</div>
 						<input type="text" id="contact-form-name" name="nombre" class="form-control required"
-							placeholder="Nom" />
+							placeholder="Nom" required />
 					</div><br>
 
 					<div class="input-group divcenter" data-animate="pulse">
@@ -443,7 +502,7 @@
 							<div class="input-group-text"><i class="icon-email3"></i></div>
 						</div>
 						<input type="email" id="contact-form-email" name="email" class="form-control required email"
-							placeholder="Mail">
+							placeholder="Mail" required />
 					</div><br>
 
 					<div class="input-group divcenter" data-animate="pulse">
@@ -451,16 +510,14 @@
 							<div class="input-group-text"><i class="icon-phone3"></i></div>
 						</div>
 						<input type="phone" id="contact-form-phone" name="telefono" class="form-control required phone"
-							placeholder="Téléphone" />
+							placeholder="Téléphone" required />
 					</div><br>
 
 					<input type="text" id="contact-form-message" name="mensaje"
 						value="Contacto enviado desde Landing 'Costa Blanca'" hidden>
-
-					<div class="input-group" data-animate="pulse">
-						<button class="btn btn-warning" type="submit">Envoyer</button>
+					<div class="d-grid gap-2">
+						<button data-animate="pulse" class="btn btn-outline-light btn" type="submit">Envoyer</button>
 					</div>
-
 				</form>
 			</div>
 		</div>
@@ -488,9 +545,9 @@
 				<div class="col_one_third col_last">
 					<div class="widget clearfix">
 
-						<!-- <img src="images/logo.jpg" alt="Maisons de Mer footer logo" style=" border-radius:2%;"
+						<!-- <img src="landings/images/logo.jpg" alt="Maisons de Mer footer logo" style=" border-radius:2%;"
 								class="footer-logo"> -->
-						<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;"
+						<div style="background: url('landings/images/world-map.png') no-repeat center center; background-size: 100%;"
 							class="center">
 							<address>
 								<h4>Maisons de Mer</h4>
@@ -609,7 +666,7 @@
 
 	<div class="toast-container position-fixed bottom-0 end-0 p-3" id="toastContainer">
 		<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="successToast">
-			<div class="toast-header">
+			<div class="toast-header bg-success bg-gradient">
 				<strong class="me-auto">Succès</strong>
 				<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Cerrar"></button>
 			</div>
@@ -625,14 +682,14 @@
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.js"></script>
+	<script src="landings/js/jquery.js"></script>
+	<script src="landings/js/plugins.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
-	<script src="js/popup.js"></script>
-	<script src="js/functions.js"></script>
-	<script src="js/playsinmobile.js"></script>
+	<script src="landings/js/popup.js"></script>
+	<script src="landings/js/functions.js"></script>
+	<script src="landings/js/playsinmobile.js"></script>
 	<!-- Bootstrap JavaScript Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 	<!-- SimpleLightbox JavaScript para el Lightbox -->
@@ -650,7 +707,7 @@
 				e.preventDefault(); // Evita el envío normal del formulario
 
 				var submitButton = $(this).find('button[type="submit"]');
-				submitButton.prop('disabled', true).removeClass('btn-warning').addClass('btn-secondary'); // Desactiva el botón y cambia la clase
+				submitButton.prop('disabled', true).removeClass('btn-outline-light').addClass('btn-secondary'); // Desactiva el botón y cambia la clase
 
 				$.ajax({
 					url: $(this).attr('action'), // URL definida en el formulario

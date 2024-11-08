@@ -46,15 +46,47 @@
     object-fit: cover;
 }
 
-.container-fluid{
+.container-fluid {
     margin-top: -80px;
-    padding:1% 0;
+    padding: 1% 0;
     background-color: #545344;
+}
+
+.container-fluid-image {
+    margin-top: 0px;
+    padding: 0;
+    background-image: url('../images/costablanca.png');
+    background-size: cover;
+    background-position: center;
+    /* margin-top: -80px; */
+    height: auto;
+}
+
+.mobile-only {
+    display: none;
+    /* Ocultar por defecto */
+}
+
+@media (max-width: 768px) {
+    .container-fluid-image {
+        display: none;
+        background-color: #6992A7;
+    }
+
+    .mobile-only {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    #slider{
+        display: none;
+    }
 }
 
 .image-container {
     position: relative;
-    height: 100vh; 
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -64,7 +96,7 @@
     top: 0;
     width: auto;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 .col-md-6 h2 {
@@ -76,4 +108,14 @@
     width: 100%;
     height: auto;
     cursor: pointer;
+}
+
+.thmb-img {
+    border-radius: 2%;
+    transition: opacity 0.3s ease;
+
+}
+
+.thmb-img:hover {
+    opacity: 0.6;
 }

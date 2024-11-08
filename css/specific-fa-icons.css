@@ -1,10 +1,18 @@
 .fa-umbrella-beach,
 .fa-plane-departure,
-.fa-hospital-alt,
-.uil-restaurant,
-.fa-golf-ball {
+.fa-hospital-alt {
+    font-size: 35px;
+    color: #E0A800;
+}
+
+.uil-restaurant {
     font-size: 32px;
     color: #E0A800;
+}
+
+.i-golf {
+    height: 45px;
+    width: auto;
 }
 
 @media (max-width: 768px) {
@@ -12,9 +20,18 @@
     .fa-umbrella-beach,
     .fa-plane-departure,
     .fa-hospital-alt,
-    .uil-restaurant,
-    .fa-golf-ball {
+    .uil-restaurant {
+        font-size: 25px;
+    }
+
+    .uil-restaurant {
         font-size: 22px;
-        color: #E0A800;
+
+    }
+
+    .i-golf {
+        width: 28px;
+        height: auto;
+        margin-left: -5px;
     }
 }
