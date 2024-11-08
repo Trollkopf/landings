@@ -82,6 +82,14 @@
     #slider{
         display: none;
     }
+    
+    .occult-mobile{
+        display: none;
+    }
+
+    .reduce-padding{
+        padding: -5%;
+    }
 }
 
 .image-container {
